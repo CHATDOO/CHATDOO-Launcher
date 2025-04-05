@@ -1,8 +1,8 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.2.3",
-    "description": "Conflictura modded server launcher",
+    "name": "LESAFFRANCHIS",
+    "preductname": "LESAFFRANCHIS Launcher",
+    "version": "1.0.1",
+    "description": "LES AFFRANCHIS modded server launcher",
     "main": "src/app.js",
     "author": "CHATDOO",
     "env": "azuriom",
