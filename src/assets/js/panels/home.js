@@ -99,6 +99,8 @@ class Home {
 
             playBtn.style.display = "none";
             info.style.display = "block";
+            document.querySelector('.download-content').classList.add('active');
+
             launch.Launch(opts);
 
             const launcherSettings = (await this.database.get('1234', 'launcher')).value;

@@ -1,81 +1,90 @@
-<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<!-- HTML complet - Menu Settings avec structure galaxie, compatible avec la logique JS -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 <div class="settings-content">
-    <div class="tabs-settings-btn">
-        <button style="margin-top: 40px;" class="tab-btn-css tab-btn active-tab-btn default-tab-btn" id="accounts-tab"></button>
-        <button class="tab-btn-css tab-btn" id="ram-tab"></button>
-        <button class="tab-btn-css tab-btn" id="launch-tab"></button>
-        <button class="tab-btn-css tab-btn" id="mods-tab"></button>
-        <button class="tab-btn-css tab-btn" id="skin-tab"></button>
-        <button class="tab-btn-css save-tabs-btn" id="save-tab"></button>
-    </div>
+  <div class="tabs-settings-btn">
+    <button style="margin-top: 40px;" class="tab-btn-css tab-btn active-tab-btn default-tab-btn" id="accounts-tab"></button>
+    <button class="tab-btn-css tab-btn" id="ram-tab"></button>
+    <button class="tab-btn-css tab-btn" id="launch-tab"></button>
+    <button class="tab-btn-css tab-btn" id="mods-tab"></button>
+    <button class="tab-btn-css tab-btn" id="skin-tab"></button>
+    <button class="tab-btn-css save-tabs-btn" id="save-tab"></button>
+  </div>
 
-    <div class="tabs-settings-content active-tab-content">
-        <div class="center-align">
-            <button class="add-account" id="add-account-btn"></button>
-            <div class="accounts"></div>
-        </div>
+  <div class="tabs-settings-content active-tab-content">
+    <div class="center-align">
+      <button class="add-account" id="add-account-btn"></button>
+      <div class="accounts"></div>
     </div>
+  </div>
 
-    <div class="tabs-settings-content">
-        <div class="settings-content-scroll">
-            <div class="title-settings" id="ram-title"></div>
-            <div class="java-settings">
-                <div class="information" id="ram-info"></div>
-                <div class="ram-info">
-                    <div class="memory-slider" min="0.5" max="8" step="0.5">
-                        <div class="slider-touch-left">
-                            <span value="0 Go"></span>
-                        </div>
-                        <div class="slider-touch-right">
-                            <span value="0 Go"></span>
-                        </div>
-                        <div class="slider-line">
-                            <span></span>
-                        </div>
-                    </div>
-
-                    <div class="ram-info-block">
-                        <span id="total-ram"></span><br>
-                        <span id="free-ram"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="tabs-settings-content">
-        <div class="center-page">
-            <div class="title-settings" id="launch-title"></div>
-            <div class="java-settings">
-                <div class="information">
-                    <input type="checkbox" class="checkbox-settings" id="launcher-close"><label for="launcher-close"><div class="checkround"></div></label><span id="close-launcher-text"></span></br>
-                    <input type="checkbox" class="checkbox-settings" id="launcher-close-all"><label for="launcher-close-all"><div class="checkround"></div></label><span id="close-all-text"></span></br>
-                    <input type="checkbox" class="checkbox-settings" id="launcher-open"><label for="launcher-open"><div class="checkround"></div></label><span id="open-launcher-text"></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="tabs-settings-content">
+  <div class="tabs-settings-content">
     <div class="settings-content-scroll">
-        <div class="center-page">
-            <div class="title-settings" id="mods-title"></div>
-            <div class="mods-info">
-                <div class="information" id="mods-info"></div>
-                <div class="mods-list" id="mods-list"></div>
+      <div class="title-settings" id="ram-title"></div>
+      <div class="java-settings">
+        <div class="information" id="ram-info"></div>
+        <div class="ram-info">
+          <div class="memory-slider" min="0.5" max="8" step="0.5">
+            <div class="slider-touch-left">
+              <span value="0 Go"></span>
             </div>
+            <div class="slider-touch-right">
+              <span value="0 Go"></span>
+            </div>
+            <div class="slider-line">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="ram-info-block">
+            <span id="total-ram"></span><br>
+            <span id="free-ram"></span>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<div class="tabs-settings-content">
+  </div>
+
+  <div class="tabs-settings-content">
+    <div class="center-page">
+      <div class="title-settings" id="launch-title"></div>
+      <div class="java-settings">
+        <div class="information">
+          <input type="checkbox" class="checkbox-settings" id="launcher-close">
+          <label for="launcher-close"><div class="checkround"></div></label><span id="close-launcher-text"></span><br>
+
+          <input type="checkbox" class="checkbox-settings" id="launcher-close-all">
+          <label for="launcher-close-all"><div class="checkround"></div></label><span id="close-all-text"></span><br>
+
+          <input type="checkbox" class="checkbox-settings" id="launcher-open">
+          <label for="launcher-open"><div class="checkround"></div></label><span id="open-launcher-text"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs-settings-content">
+    <div class="settings-content-scroll">
+      <div class="center-page">
+        <div class="title-settings" id="mods-title"></div>
+        <div class="mods-info">
+          <div class="information" id="mods-info"></div>
+          <div class="mods-list" id="mods-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs-settings-content">
     <div class="player-skin-title title-settings" id="skin-title"></div>
     <div class="center-page">
-        <div class="skin-container-settings">
-            <iframe frameborder="0" id="skinRender2" class="skin-renderer-settings" style="border: none; width: 319px; height: 221px;" src=""></iframe>
-            <input type="file" id="fileInput" accept="image/png" style="display: none;">  
-            <button id="uploadSkinButton" class="upload-skin-btn"></button>          
-        </div>
+      <div class="skin-container-settings">
+        <iframe frameborder="0" id="skinRender2" class="skin-renderer-settings" style="border: none; width: 319px; height: 221px;" src=""></iframe>
+        <input type="file" id="fileInput" accept="image/png" style="display: none;">  
+        <button id="uploadSkinButton" class="upload-skin-btn"></button>          
+      </div>
     </div>
-</div>
+  </div>
 </div>
