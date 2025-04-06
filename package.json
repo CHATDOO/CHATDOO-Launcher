@@ -1,12 +1,12 @@
 {
     "name": "LESAFFRANCHIS",
     "preductname": "LESAFFRANCHIS Launcher",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "LES AFFRANCHIS modded server launcher",
     "main": "src/app.js",
     "author": "CHATDOO",
     "env": "azuriom",
-    "settings": "https://play.lesaffranchishost.fr/",
+    "settings": "https://play.lesaffranchishost.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --build=platform",
