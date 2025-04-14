@@ -1,40 +1,39 @@
-/* ⚙️ Steampunk Theme - CSS for settings page */
+/* 🌌 Thème Galaxie - CSS pour la page des paramètres */
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: url('/images/background-steampunk.jpg') no-repeat center center fixed; /* Replace with steampunk background */
+    background: url('/images/background-galaxy.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #d4a559; /* Copper color */
+    color: #ffffff;
     overflow: hidden;
   }
-
+  
   .settings-content {
     display: flex;
     height: 100vh;
     position: relative;
     z-index: 1;
   }
-
+  
   .tabs-settings-btn {
     width: 200px;
-    background: rgba(42, 26, 16, 0.9); /* Dark brown background */
+    background: rgba(15, 10, 30, 0.9);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
     gap: 10px;
-    box-shadow: 0 0 10px rgba(139, 94, 52, 0.3); /* Copper shadow */
-    border: 2px solid #8b5e34; /* Copper border */
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
   }
-
+  
   .tab-btn-css {
     width: 150px;
     padding: 12px 16px;
-    background: #2a1810; /* Dark brown */
-    border: 1px solid #8b5e34; /* Copper border */
+    background: #2b0b3c;
+    border: none;
     border-radius: 30px;
-    color: #d4a559; /* Copper color */
+    color: #ffffff;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -43,168 +42,160 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-
+  
   .tab-btn-css:hover {
-    background: #3a2820; /* Darker brown on hover */
-    color: #d4a559; /* Copper color */
+    background: #f81ce5;
+    color: #fff;
     transform: scale(1.05);
-    box-shadow: 0 0 10px #8b5e34; /* Copper shadow */
+    box-shadow: 0 0 10px #f81ce5;
   }
-
+  
   .active-tab-btn {
-    background: #3a2820; /* Darker brown */
-    color: #d4a559; /* Copper color */
-    box-shadow: 0 0 10px #8b5e34; /* Copper shadow */
+    background: #f81ce5;
+    color: #fff;
+    box-shadow: 0 0 10px #f81ce5;
   }
-
+  
   .tabs-settings-content {
     flex-grow: 1;
     padding: 30px;
     display: none;
     overflow-y: auto;
   }
-
+  
   .tabs-settings-content.active-tab-content {
     display: block;
   }
-
+  
   .title-settings {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    color: #d4a559; /* Copper color */
-    text-shadow: 1px 1px 2px #000; /* Add a subtle shadow */
   }
-
+  
   .add-account {
-    background: #3a2820; /* Dark brown */
-    color: #d4a559; /* Copper color */
+    background: #f81ce5;
+    color: #fff;
     padding: 12px 30px;
-    border: 1px solid #8b5e34; /* Copper border */
+    border: none;
     border-radius: 30px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 0 10px #8b5e34; /* Copper shadow */
+    box-shadow: 0 0 10px #f81ce5;
     margin-bottom: 20px;
     transition: all 0.3s;
   }
-
+  
   .add-account:hover {
-    background: #2a1810; /* Darker brown on hover */
+    background: #c900aa;
     transform: scale(1.05);
   }
-
+  
   .java-settings,
   .mods-info {
-    background-color: rgba(42, 26, 16, 0.9); /* Dark brown background */
+    background-color: rgba(25, 10, 35, 0.9);
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid #8b5e34; /* Copper border */
-    box-shadow: 0 0 10px rgba(139, 94, 52, 0.3); /* Copper shadow */
-    color: #d4a559; /* Copper text */
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
   }
-
+  
   .memory-slider {
     height: 20px;
-    background: #2a1810; /* Dark brown */
+    background: #2a2a2a;
     border-radius: 10px;
     position: relative;
     margin-top: 20px;
   }
-
+  
   .memory-slider span {
     display: block;
     height: 100%;
     width: 0%;
-    background-color: #8b5e34; /* Copper */
+    background-color: #f81ce5;
     border-radius: 10px;
   }
-
+  
   .checkbox-settings + label {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-color: #d4a559; /* Copper */
+    background-color: #fff;
     border-radius: 8px;
     cursor: pointer;
     margin-right: 10px;
     position: relative;
-    border: 1px solid #2a1810;
   }
-
+  
   .checkbox-settings:checked + label {
-    background-color: #8b5e34; /* Copper */
+    background-color: #f81ce5;
   }
-
+  
   .upload-skin-btn {
-    background: #3a2820; /* Dark brown */
-    color: #d4a559; /* Copper color */
-    border: 1px solid #8b5e34; /* Copper border */
+    background: #f81ce5;
+    color: white;
+    border: none;
     padding: 12px 24px;
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s;
   }
-
+  
   .upload-skin-btn:hover {
-    background: #2a1810; /* Darker brown on hover */
+    background: #c900aa;
     transform: scale(1.05);
   }
-
+  
   .skin-renderer-settings {
-    background-color: #2a1810; /* Dark brown */
+    background-color: #1f1f1f;
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #8b5e34; /* Copper border */
-    color: #d4a559; /* Copper text */
   }
-
+  
   .mods-list {
     max-height: 300px;
     overflow-y: auto;
     margin-top: 20px;
   }
-
+  
   .mods-container {
-    background: #2a1810; /* Dark brown */
+    background: #1a1a2e;
     border-radius: 15px;
     padding: 15px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #d4a559; /* Copper color */
-    border: 1px solid #8b5e34; /* Copper border */
+    color: #fff;
   }
-
+  
   .mods-icon {
     width: 64px;
     height: 64px;
     border-radius: 8px;
     margin-right: 20px;
   }
-
+  
   .slider.round {
-    background: #8b5e34; /* Copper */
+    background: #f81ce5;
   }
-
+  
   .switch {
     position: relative;
     display: inline-block;
     width: 34px;
     height: 20px;
   }
-
+  
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-
+  
   .slider {
     position: absolute;
     cursor: pointer;
@@ -212,11 +203,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2a1810; /* Dark brown */
+    background-color: #ccc;
     transition: .4s;
     border-radius: 34px;
   }
-
+  
   .slider:before {
     position: absolute;
     content: "";
@@ -224,40 +215,16 @@ body {
     width: 14px;
     left: 3px;
     bottom: 3px;
-    background-color: #d4a559; /* Copper */
+    background-color: white;
     transition: .4s;
     border-radius: 50%;
   }
-
+  
   input:checked + .slider {
-    background-color: #8b5e34; /* Copper */
+    background-color: #f81ce5;
   }
-
+  
   input:checked + .slider:before {
     transform: translateX(14px);
   }
-
-  .button-frame {
-    width: 34px;
-    height: 34px;
-    background-color: #2a1810;
-    border: 1px solid #8b5e34;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #d4a559;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-.button-frame:hover {
-    background-color: #3a2820;
-    border-color: #d4a559;
-    transform: translateY(-1px);
-}
-
-.button-frame:active {
-    transform: translateY(1px);
-}
+  

@@ -1,25 +1,32 @@
 <div class="home-content">
-  <div class="top-bar">
-    <div class="profile-box">
-      <img src="" alt="Profile" class="profile-img" id="user-head">
-      <span class="username" id="user-name"></span>
+    <div class="top-bar">
+      <div class="server-box">
+        <img class="server-img" />
+        <div class="server-text">
+          <div class="name" id="server-name"></div>
+          <div class="desc" id="server-desc"></div>
+        </div>
+        <div class="etat-text">
+          <div class="text" id="players-connected"></div>
+          <div class="online off"></div>
+        </div>
+      </div>
+      <div class="user-box">
+        <div class="player-head"></div>
+        <div class="player-role"></div>
+        <div class="player-monnaie"></div>
+        <button class="settings-btn icon-settings" id="settings-btn"></button>
+      </div>
     </div>
-    <div class="nav-buttons">
-      <button class="nav-btn" id="installations-btn">Installations</button>
-      <button class="nav-btn" id="skins-btn">Skins</button>
-      <button class="nav-btn" id="news-btn">News</button>
-      <button class="nav-btn" id="settings-btn">Settings</button>
-    </div>
-  </div>
-
+  
     <!-- Bannière pour le message d'alerte -->
     <div class="advert-banner" id="advert-banner" style="display:none;"></div>
-
+  
     <div class="body-home">
       <div class="left-column">
         <div class="news-list"></div>
       </div>
-
+  
       <div class="right-column">
         <div class="info-list">
           <div class="info-item">
@@ -42,7 +49,7 @@
         </div>
       </div>
     </div>
-
+  
     <div class="bottom-bar-home">
       <div class="play-element">
         <button class="play-btn" id="play-btn"></button>
@@ -53,3 +60,4 @@
       </div>
     </div>
   </div>
+  
