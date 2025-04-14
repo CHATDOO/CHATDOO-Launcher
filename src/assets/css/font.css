@@ -1,4 +1,4 @@
-/* Poppins */
+/* Font declarations */
 
 @font-face {
     font-family: 'Poppins';
@@ -40,6 +40,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Icon mappings */
 [class^="icon-"]:before,
 [class*=" icon-"]:before,
 [class^="icon-"]:after,
@@ -57,46 +59,12 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.icon-close:before {
-    font-family: "Icons";
-    content: "\e90e";
-}
-
-.icon-minimize:before {
-    font-family: "Icons";
-    content: "\e90b";
-}
-
-.icon-maximize:before {
-    font-family: "Icons";
-    content: "\e90c";
-}
-
-.icon-restore-down:before {
-    font-family: "Icons";
-    content: "\e90d";
-}
-
-.icon-account-add:before {
-    font-family: "Icons";
-    content: "\e901";
-}
-
-.icon-account-delete:before {
-    font-family: "Icons";
-    content: "\e902";
-}
-
-.icon-settings:before {
-    font-family: "Icons";
-    content: "\e909";
-}
-.icon-admin:before {
-    font-family: "Iconn";
-    content: "\e991";
-}
-
-.icon-monitor:before {
-    font-family: "Icons";
-    content: "\e90a";
-}
+.icon-close:before { font-family: "Icons"; content: "\e90e"; }
+.icon-minimize:before { font-family: "Icons"; content: "\e90b"; }
+.icon-maximize:before { font-family: "Icons"; content: "\e90c"; }
+.icon-restore-down:before { font-family: "Icons"; content: "\e90d"; }
+.icon-account-add:before { font-family: "Icons"; content: "\e901"; }
+.icon-account-delete:before { font-family: "Icons"; content: "\e902"; }
+.icon-settings:before { font-family: "Icons"; content: "\e909"; }
+.icon-admin:before { font-family: "Iconn"; content: "\e991"; }
+.icon-monitor:before { font-family: "Icons"; content: "\e90a"; }
