@@ -1,126 +1,198 @@
-.login-card,
-.login-card-mojang,
-.a2f-card,
+.login-card {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-type {
+    display: grid;
+    padding: 0 7%;
+}
+
+.login-type-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+
+.login-type-btn:hover {
+    background-color: #006e47;
+    box-shadow: 0 0 5px #006e47;
+}
+
+.login-type-btn:disabled {
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+    cursor: default;
+}
+
+.login-type-btn:disabled:hover {
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+}
+
+.microsoft {
+    display: none;
+}
+
+.login-card-mojang {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 0 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    display: none;
+}
+
+.card-body {
+    margin: 10%;
+}
+
+.login-card-mojang-input {
+    text-align: center;
+    display: grid;
+}
+
+.login-mojang-input {
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+    color: #fff;
+    border: solid 0px rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    background-color: #373737;
+    padding: 0.375rem 0.75rem;
+}
+
+.loginDisclaimerText {
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.btn-option-login {
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+
+.login-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #006e47;
+    box-shadow: 0 0 5px #006e47;
+}
+
+.cancel {
+    border: none;
+    background-color: #ffffff00;
+    color: #F1F1F1;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: #373737;
+}
+
+.cancel:hover:disabled {
+    color: #F1F1F1;
+    cursor: default;
+}
+
+.password-reset {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.new-user {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.login-btn-2f {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #00bd7a;
+    box-shadow: 0 0 5px #00bd7a;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+.a2f-card {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    text-align: center;
+}
+.cancel-2f {
+    border: none;
+    background-color: #ffffff00;
+    color: #F1F1F1;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+.cancel-2f:hover {
+    color: #373737;
+}
 .email-verify-card {
     position: absolute;
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 35%;
-    background: rgba(25, 20, 15, 0.9);
+    background: #121212;
     padding: 20px;
     font: normal normal bold 19px/29px Poppins;
-    color: #f2d3a0;
+    color: #E1E1E1;
     border-radius: 15px;
-    border: 2px solid #b08d57;
-    box-shadow: 0 0 15px rgba(255, 200, 100, 0.2);
-    text-align: center;
-    backdrop-filter: blur(5px);
-}
-
-.login-type,
-.btn-option-login {
-    display: grid;
-    padding: 0 7%;
     text-align: center;
 }
-
-.login-type-btn,
-.login-btn,
-.login-btn-2f {
-    border-radius: 15px;
-    border: 2px solid #c9a96e;
-    margin: 2% 0;
-    height: 2.2em;
-    background-color: #1f1b17;
-    box-shadow: 0 0 8px rgba(201, 169, 110, 0.25);
-    color: #f2d3a0;
-    font: normal normal bold 19px/29px Poppins;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.login-type-btn:hover,
-.login-btn:hover,
-.login-btn-2f:hover {
-    background-color: #c9a96e;
-    color: #1f1b17;
-    box-shadow: 0 0 12px rgba(201, 169, 110, 0.4);
-    transform: scale(1.05);
-}
-
-.login-type-btn:disabled,
-.login-type-btn:disabled:hover {
-    background-color: #3a2f27;
-    color: #a08865;
-    box-shadow: 0 0 5px rgba(80, 60, 40, 0.3);
-    cursor: default;
-}
-
-.login-mojang-input {
-    font-family: 'Poppins';
-    letter-spacing: 2px;
-    color: #f2d3a0;
-    border: 1px solid #b08d57;
-    border-radius: 30px;
-    background-color: #2b2520;
-    padding: 0.375rem 0.75rem;
-    margin-top: 0.5rem;
-}
-
-.loginDisclaimerText {
-    text-align: center;
-    font-size: 0.5em;
-    color: #c4a879;
-}
-
-.password-reset,
-.new-user {
-    cursor: pointer;
-    color: #f2d3a0;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.password-reset:hover,
-.new-user:hover {
-    color: #ffe6b0;
-}
-
-.cancel,
-.cancel-2f,
 .cancel-email {
     border: none;
-    background-color: transparent;
-    color: #f2d3a0;
+    background-color: #ffffff00;
+    color: #F1F1F1;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
-    transition: color 0.3s ease;
 }
-
-.cancel:hover,
-.cancel-2f:hover,
 .cancel-email:hover {
-    color: #c9a96e;
-}
-
-.cancel:hover:disabled,
-.cancel-2f:hover:disabled,
-.cancel-email:hover:disabled {
-    color: #f2d3a0;
-    cursor: default;
-}
-.login-card-mojang,
-.a2f-card,
-.email-verify-card {
-    display: none;
-}
-
-
-/* Ajout d'une classe .show pour affichage via JS existant */
-.login-card-mojang.show,
-.a2f-card.show,
-.email-verify-card.show {
-    display: block;
-    opacity: 1;
-}
+    color: #373737;
+} 
