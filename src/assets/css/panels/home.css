@@ -83,7 +83,7 @@ body {
   .online {
     width: 10px;
     height: 10px;
-    background-color: #f81ce5;
+    background-color: #f8621c;
     border-radius: 50%;
     border: 1px solid #111;
   }
@@ -237,17 +237,17 @@ body {
   .ytb-btn {
     text-align: center;
     padding: 12px;
-    background-color: #f81ce5;
+    background-color: #f8621c;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
     transition: background 0.3s;
-    box-shadow: 0 0 8px rgba(248, 28, 229, 0.5);
+    box-shadow: 0 0 8px rgba(248, 109, 28, 0.5);
   }
 
   .ytb-btn:hover {
-    background-color: #c900aa;
+    background-color: #c95000;
   }
 
   .bottom-bar-home {
@@ -326,12 +326,12 @@ body {
   }
 
   .progress-bar::-webkit-progress-value {
-    background-color: #f81ce5;
+    background-color: #d4a559;
     border-radius: 10px;
   }
 
   .advert-banner {
-    background-color: rgba(87, 0, 87, 0.8);
+    background-color: rgba(87, 42, 0, 0.8);
     color: #fff;
     text-align: center;
     padding: 10px;

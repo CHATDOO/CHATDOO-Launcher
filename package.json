@@ -1,7 +1,7 @@
 {
-    "name": "LESAFFRANCHIS",
+    "name": "lesaffranchis",
     "preductname": "LESAFFRANCHIS Launcher",
-    "version": "1.0.7",
+    "version": "3.0.0",
     "description": "LES AFFRANCHIS modded server launcher",
     "main": "src/app.js",
     "author": "CHATDOO",
